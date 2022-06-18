@@ -43,14 +43,14 @@ Select `Install code in path`
 cd ~/Documents
 mkdir code
 cd code
-git clone git@github.com:delaurentis/vue-starter.git
-cd vue-starter
+git clone git@github.com:delaurentis/new-to-vue.git
+cd new-to-vue
 npm install
 ```
 
 # Run the Vue App
 
-Type this in the terminal from the `~/Documents/code/vue-starter` folder:
+Type this in the terminal from the `~/Documents/code/new-to-vue` folder:
 
 ```jsx
 npm run dev
@@ -63,10 +63,10 @@ Press `Command + C` to stop it at any time
 You can type this from any folder:
 
 ```jsx
-code ~/Documents/code/vue-starter
+code ~/Documents/code/new-to-vue
 ```
 
-Or if you are already in the `vue-starter` folder:
+Or if you are already in the `new-to-vue` folder:
 
 ```jsx
 code ./
