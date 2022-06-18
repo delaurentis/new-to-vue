@@ -1,3 +1,5 @@
+<!-- HTML --> 
+<!-- Structure: Where does everything go? -->
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
   <h1 class="title">Hello World</h1>
@@ -7,6 +9,8 @@
   <counter msg="Count is" />
 </template>
 
+<!-- JavaScript --> 
+<!-- Functionality: What does it do? -->
 <script>
 import Counter from './components/Counter.vue'
   
@@ -25,6 +29,8 @@ export default {
 }
 </script>
 
+<!-- CSS --> 
+<!-- Style: How does it look? -->
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

@@ -1,13 +1,15 @@
+<!-- HTML --> 
+<!-- Structure: Where does everything go? -->
 <template>
   <div class="component">
     <button @click="incrementCount()">{{ msg }}: {{ count }}</button>
   </div>
-
 </template>
 
+<!-- JavaScript --> 
+<!-- Functionality: What does it do? -->
 <script>
 
-// Options API
 export default {
   props: {
     msg: String,
@@ -28,6 +30,8 @@ export default {
 
 </script>
 
+<!-- CSS --> 
+<!-- Style: How does it look? -->
 <style scoped>
 
   button {
@@ -46,6 +50,5 @@ export default {
     background-color: #DFDFDF;
     transform: translate(1px, 1px);
   }
-
 
 </style>
